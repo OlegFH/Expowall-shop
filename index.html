@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expowall.shop — кухонні стінові панелі під замовлення в Києві</title>
+<meta name="description" content="Кухонні стінові панелі та скінали під замовлення. Виготовлення від 3 днів, доставка по Україні, гарантія 12 місяців.">
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти до змісту</a>
+
+<header class="site-header" id="site-header"></header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__text">
+        <span class="eyebrow eyebrow--light" id="heroEyebrow">EXPOWALL.SHOP · КИЇВ</span>
+        <h1 class="hero__title" id="heroTitle">Кухонні стінові панелі під замовлення</h1>
+        <p class="hero__subtitle" id="heroSubtitle">Виготовлення від 3 днів • Доставка по Україні. Скінали з композиту та HPL у колір стільниць, гарантія 12 місяців.</p>
+        <span class="hero__price" id="heroPrice">Від 2800 грн/шт</span>
+        <div class="hero__actions">
+          <a class="btn btn-primary" href="/catalog.html" id="heroCta">Переглянути каталог</a>
+          <button class="btn btn-ghost-light" id="openOrderModalHero">Замовити дзвінок</button>
+        </div>
+        <div class="hero__quickcontact" id="heroQuickContact"></div>
+
+        <form class="hero__leadform" id="heroLeadForm">
+          <div class="hero__leadform-title">Розрахуємо вартість безкоштовно за 15 хвилин</div>
+          <div class="hero__leadform-row">
+            <input type="text" id="leadName" name="name" placeholder="Ваше ім'я" required>
+            <input type="tel" id="leadPhone" name="phone" placeholder="Телефон" required>
+          </div>
+          <button type="submit" class="btn btn-primary" id="leadSubmitBtn">Отримати прорахунок</button>
+          <p class="hero__leadform-note">Натискаючи кнопку, ви погоджуєтесь на обробку персональних даних.</p>
+        </form>
+      </div>
+      <div class="hero__art">
+        <img src="/images/kitchen-hero.jpg" alt="Глянцеві скінали Expowall.shop — реалізований проєкт" width="1280" height="960" loading="eager">
+      </div>
+    </div>
+    <div class="hero__stats container" id="heroStats"></div>
+    <div class="swatch-rail container">
+      <div class="swatch-rail__list" id="swatchRail" aria-label="Категорії матеріалів"></div>
+    </div>
+  </section>
+
+  <section class="advantages">
+    <div class="container advantages__grid" id="advantagesGrid"></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Каталог</span>
+          <h2>Категорії панелей</h2>
+        </div>
+        <a class="btn btn-ghost" href="/catalog.html">Весь каталог</a>
+      </div>
+      <div class="cat-grid" id="catGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--porcelain-dim)">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Хіти та новинки</span>
+          <h2>Популярні панелі</h2>
+        </div>
+        <a class="btn btn-ghost" href="/catalog.html">Весь каталог</a>
+      </div>
+      <div class="product-grid" id="featuredGrid"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Процес</span>
+          <h2>Як замовити</h2>
+        </div>
+      </div>
+      <div class="steps-grid" id="stepsGrid"></div>
+    </div>
+  </section>
+
+  <section class="calculator" id="calculatorRoot">
+    <div class="container calculator__inner">
+      <div class="calculator__form">
+        <span class="eyebrow eyebrow--light">Калькулятор</span>
+        <h2 class="hero__title" style="font-size:clamp(1.5rem,2.4vw,2rem);margin:10px 0 22px;">Орієнтовна вартість панелі</h2>
+        <div class="field">
+          <label for="calcLength">Довжина кухні, пог. м</label>
+          <input type="number" id="calcLength" min="0" step="0.1" placeholder="Наприклад, 3.2">
+        </div>
+        <div class="field">
+          <label for="calcType">Тип панелі</label>
+          <select id="calcType"></select>
+        </div>
+        <p class="field-hint" style="color:#9095a0">Розрахунок орієнтовний. Точну вартість назве менеджер після уточнення розмірів і малюнка.</p>
+      </div>
+      <div class="calculator__result">
+        <span class="calculator__result-label">Орієнтовна вартість</span>
+        <span class="calculator__result-value" id="calcResultValue">—</span>
+        <span class="calculator__result-hint" id="calcResultHint">Вкажіть довжину кухні, щоб побачити орієнтовну вартість</span>
+        <button class="btn btn-primary btn-block" id="calcOrderBtn">Замовити за цим розрахунком</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--porcelain-dim)">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Портфоліо</span>
+          <h2>Галерея готових кухонь</h2>
+        </div>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Відгуки</span>
+          <h2>Що кажуть клієнти</h2>
+        </div>
+      </div>
+      <div class="testimonials-grid" id="testimonialsGrid"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/config.js"></script>
+<script type="module" src="/js/layout.js"></script>
+<script type="module" src="/js/order-form.js"></script>
+<script type="module" src="/js/home.js"></script>
+<script type="module">
+  import { initCalculator } from "/js/calculator.js";
+  import { initHeroLeadForm } from "/js/hero-leadform.js";
+  initCalculator();
+  initHeroLeadForm();
+</script>
+<script type="module">
+  document.getElementById("openOrderModalHero")?.addEventListener("click", () => {
+    document.dispatchEvent(new CustomEvent("expowall:openOrderModal", { detail: { productTitle: "Дзвінок менеджера" } }));
+  });
+</script>
+</body>
+</html>

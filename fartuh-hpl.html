@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Кухонний фартух з HPL — Expowall.shop</title>
+<meta name="description" content="Кухонний фартух з HPL-пластику в Києві. Підбір у колір стільниці, висока стійкість до подряпин і температур, гарантія 12 місяців.">
+<link rel="canonical" href="/fartuh-hpl.html">
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти до змісту</a>
+<header class="site-header" id="site-header"></header>
+<main id="main">
+
+  <section class="landing-hero">
+    <div class="container">
+      <nav class="breadcrumbs"><a href="/">Головна</a><span>/</span><span>Фартух з HPL</span></nav>
+      <span class="eyebrow eyebrow--light">EXPOWALL.SHOP</span>
+      <h1>Кухонний фартух з HPL</h1>
+      <p>HPL-пластик (High Pressure Laminate) — один з найміцніших матеріалів для кухонного фартуха. Він складається з кількох шарів паперу, просочених смолами під високим тиском, що робить поверхню надзвичайно стійкою до подряпин, ударів та високих температур. HPL-фартух часто підбирають у колір стільниці для безшовного переходу робочої зони.</p>
+      <div class="hero__actions">
+        <a class="btn btn-primary" href="#products">Переглянути варіанти</a>
+        <button class="btn btn-ghost-light" data-open-order-modal="Консультація: фартух з HPL">Безкоштовна консультація</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="products">
+    <div class="container">
+      <div class="section-head">
+        <div><span class="eyebrow">Каталог</span><h2>Фартухи з HPL</h2></div>
+      </div>
+      <div class="product-grid" id="landingGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--porcelain-dim)">
+    <div class="container">
+      <div class="section-head"><div><span class="eyebrow">Переваги</span><h2>Переваги HPL-фартуха</h2></div></div>
+      <div class="advantages__grid" style="border:1px solid var(--line);background:var(--line)">
+        <div class="advantage"><span class="advantage__num">01</span><h3>Максимальна міцність</h3><p>Найстійкіший до подряпин та механічних пошкоджень матеріал</p></div>
+        <div class="advantage"><span class="advantage__num">02</span><h3>Колір в тон стільниці</h3><p>Великий вибір декорів популярних виробників стільниць</p></div>
+        <div class="advantage"><span class="advantage__num">03</span><h3>Стійкість до температур</h3><p>Можна розміщувати близько до плити та духової шафи</p></div>
+        <div class="advantage"><span class="advantage__num">04</span><h3>Не вицвітає</h3><p>Зберігає колір і малюнок навіть під прямим сонцем</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><div><span class="eyebrow">Питання</span><h2>Часті запитання</h2></div></div>
+      <div class="faq">
+        <details class="faq-item" open><summary>Чим HPL відрізняється від звичайного пластикового фартуха?</summary><p>HPL — це багатошаровий пресований пластик високої щільності, набагато міцніший і довговічніший за тонкий ПВХ-фартух.</p></details>
+        <details class="faq-item"><summary>Чи можна підібрати HPL в колір стільниці Egger або Kronospan?</summary><p>Так, у нас є декори, що повторюють популярні колекції виробників стільниць — надішліть менеджеру назву декору вашої стільниці.</p></details>
+        <details class="faq-item"><summary>Яка товщина HPL-панелі для фартуха?</summary><p>Стандартна товщина — від 6 до 8 мм залежно від розміру панелі та способу монтажу.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--porcelain-dim)">
+    <div class="container">
+      <div class="section-head"><div><span class="eyebrow">Дивіться також</span><h2>Інші види панелей</h2></div></div>
+      <div class="related-links">
+        <a href="/panel-pid-mramur.html">Панелі під мармур</a>
+        <a href="/panel-pid-derevo.html">Панелі під дерево</a>
+        <a href="/bili-paneli.html">Білі кухонні панелі</a>
+        <a href="/skinali-dlya-kuhni.html">Скінали для кухні</a>
+        <a href="/fartuh-mdf.html">Кухонний фартух МДФ</a>
+        <a href="/catalog.html">Весь каталог</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+<footer class="site-footer" id="site-footer"></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/config.js"></script>
+<script type="module" src="/js/layout.js"></script>
+<script type="module" src="/js/order-form.js"></script>
+<script type="module">
+  import { loadLandingProducts, bindLandingCta } from "/js/seo-landing.js";
+  loadLandingProducts({ categorySlug: "hpl-cvet-stoleshnic", gridId: "landingGrid" });
+  bindLandingCta();
+</script>
+</body>
+</html>

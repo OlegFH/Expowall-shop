@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Скінали для кухні в Києві — Expowall.shop</title>
+<meta name="description" content="Скінали для кухні під замовлення в Києві. Понад 500 дизайнів, глянцеві та матові панелі, виготовлення від 3 днів, доставка по Україні.">
+<link rel="canonical" href="/skinali-dlya-kuhni.html">
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти до змісту</a>
+<header class="site-header" id="site-header"></header>
+<main id="main">
+
+  <section class="landing-hero">
+    <div class="container">
+      <nav class="breadcrumbs"><a href="/">Головна</a><span>/</span><span>Скінали для кухні</span></nav>
+      <span class="eyebrow eyebrow--light">EXPOWALL.SHOP</span>
+      <h1>Скінали для кухні</h1>
+      <p>Скінали — це стінова панель для кухні, яка захищає стіну в робочій зоні від жиру, вологи та високих температур і одночасно є основним декоративним елементом інтер'єру. На відміну від плитки, скінали монтується без швів, що спрощує прибирання і виглядає сучасніше. У каталозі Expowall.shop — понад 500 дизайнів: від однотонних глянцевих панелей до фотодруку.</p>
+      <div class="hero__actions">
+        <a class="btn btn-primary" href="#products">Переглянути варіанти</a>
+        <button class="btn btn-ghost-light" data-open-order-modal="Консультація: скінали для кухні">Безкоштовна консультація</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="products">
+    <div class="container">
+      <div class="section-head">
+        <div><span class="eyebrow">Каталог</span><h2>Популярні скінали</h2></div>
+      </div>
+      <div class="product-grid" id="landingGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--porcelain-dim)">
+    <div class="container">
+      <div class="section-head"><div><span class="eyebrow">Переваги</span><h2>Чому скінали кращі за плитку</h2></div></div>
+      <div class="advantages__grid" style="border:1px solid var(--line);background:var(--line)">
+        <div class="advantage"><span class="advantage__num">01</span><h3>Без швів</h3><p>Суцільна панель — немає затирки, де накопичується бруд</p></div>
+        <div class="advantage"><span class="advantage__num">02</span><h3>Швидкий монтаж</h3><p>Встановлюється за один день, на відміну від плитки</p></div>
+        <div class="advantage"><span class="advantage__num">03</span><h3>Будь-який малюнок</h3><p>Фотодрук, однотонний глянець, текстура каменю чи дерева</p></div>
+        <div class="advantage"><span class="advantage__num">04</span><h3>Гарантія 12 місяців</h3><p>На всі скінали та фартухи власного виробництва</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><div><span class="eyebrow">Питання</span><h2>Часті запитання</h2></div></div>
+      <div class="faq">
+        <details class="faq-item" open><summary>З яких матеріалів виготовляють скінали?</summary><p>Найпоширеніші варіанти — МДФ з фотодруком, композитні панелі та HPL-пластик. Кожен має свої переваги за ціною та стійкістю — менеджер підкаже оптимальний варіант під ваш бюджет.</p></details>
+        <details class="faq-item"><summary>Скільки часу займає виготовлення?</summary><p>Від 3 робочих днів залежно від розміру та складності малюнка.</p></details>
+        <details class="faq-item"><summary>Чи можна замовити скінали з власним фото або малюнком?</summary><p>Так, ми друкуємо панелі за індивідуальним макетом — надішліть зображення менеджеру для уточнення можливості друку.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--porcelain-dim)">
+    <div class="container">
+      <div class="section-head"><div><span class="eyebrow">Дивіться також</span><h2>Інші види панелей</h2></div></div>
+      <div class="related-links">
+        <a href="/panel-pid-mramur.html">Панелі під мармур</a>
+        <a href="/panel-pid-derevo.html">Панелі під дерево</a>
+        <a href="/bili-paneli.html">Білі кухонні панелі</a>
+        <a href="/fartuh-hpl.html">Кухонний фартух з HPL</a>
+        <a href="/fartuh-mdf.html">Кухонний фартух МДФ</a>
+        <a href="/catalog.html">Весь каталог</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+<footer class="site-footer" id="site-footer"></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/config.js"></script>
+<script type="module" src="/js/layout.js"></script>
+<script type="module" src="/js/order-form.js"></script>
+<script type="module">
+  import { loadLandingProducts, bindLandingCta } from "/js/seo-landing.js";
+  loadLandingProducts({ categorySlug: null, gridId: "landingGrid" });
+  bindLandingCta();
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Білі кухонні панелі — Expowall.shop</title>
+<meta name="description" content="Білі глянцеві стінові панелі для кухні. Універсальний варіант для будь-якого інтер'єру, візуально розширює простір, легко миються.">
+<link rel="canonical" href="/bili-paneli.html">
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти до змісту</a>
+<header class="site-header" id="site-header"></header>
+<main id="main">
+
+  <section class="landing-hero">
+    <div class="container">
+      <nav class="breadcrumbs"><a href="/">Головна</a><span>/</span><span>Білі панелі</span></nav>
+      <span class="eyebrow eyebrow--light">EXPOWALL.SHOP</span>
+      <h1>Білі кухонні панелі</h1>
+      <p>Білий фартух — найуніверсальніше рішення для кухні: він однаково добре виглядає у класичному та мінімалістичному інтер'єрі, візуально розширює простір і ніколи не виходить з моди. Глянцева біла панель відбиває світло, тому невелика кухня здається світлішою і просторішою.</p>
+      <div class="hero__actions">
+        <a class="btn btn-primary" href="#products">Переглянути варіанти</a>
+        <button class="btn btn-ghost-light" data-open-order-modal="Консультація: білі панелі">Безкоштовна консультація</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="products">
+    <div class="container">
+      <div class="section-head">
+        <div><span class="eyebrow">Каталог</span><h2>Білі панелі</h2></div>
+      </div>
+      <div class="product-grid" id="landingGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--porcelain-dim)">
+    <div class="container">
+      <div class="section-head"><div><span class="eyebrow">Переваги</span><h2>Чому обирають білі панелі</h2></div></div>
+      <div class="advantages__grid" style="border:1px solid var(--line);background:var(--line)">
+        <div class="advantage"><span class="advantage__num">01</span><h3>Універсальність</h3><p>Поєднується з будь-яким кольором фасадів і стільниці</p></div>
+        <div class="advantage"><span class="advantage__num">02</span><h3>Візуально більше світла</h3><p>Глянець відбиває світло — кухня здається просторішою</p></div>
+        <div class="advantage"><span class="advantage__num">03</span><h3>Не виходить з моди</h3><p>Класичне рішення, яке залишається актуальним роками</p></div>
+        <div class="advantage"><span class="advantage__num">04</span><h3>Легко освіжити інтер'єр</h3><p>Нейтральний фон легко доповнити яскравим текстилем чи декором</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><div><span class="eyebrow">Питання</span><h2>Часті запитання</h2></div></div>
+      <div class="faq">
+        <details class="faq-item" open><summary>Чи помітні плями та бризки жиру на білому глянці?</summary><p>Завдяки УФ-лаку поверхня легко миється звичайними засобами, плями не вбираються і не залишають слідів.</p></details>
+        <details class="faq-item"><summary>Білий фартух — це однотонна панель чи є малюнок?</summary><p>Є обидва варіанти: однотонний глянець і панелі з білим рельєфним малюнком (наприклад, хвилі чи геометрія) — дивіться приклади в галереї на головній.</p></details>
+        <details class="faq-item"><summary>Чи підійде біла панель для маленької кухні?</summary><p>Так, це один з найкращих варіантів для невеликих кухонь — світла глянцева поверхня візуально додає простору.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--porcelain-dim)">
+    <div class="container">
+      <div class="section-head"><div><span class="eyebrow">Дивіться також</span><h2>Інші види панелей</h2></div></div>
+      <div class="related-links">
+        <a href="/panel-pid-mramur.html">Панелі під мармур</a>
+        <a href="/panel-pid-derevo.html">Панелі під дерево</a>
+        <a href="/skinali-dlya-kuhni.html">Скінали для кухні</a>
+        <a href="/fartuh-hpl.html">Кухонний фартух з HPL</a>
+        <a href="/fartuh-mdf.html">Кухонний фартух МДФ</a>
+        <a href="/catalog.html">Весь каталог</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+<footer class="site-footer" id="site-footer"></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/config.js"></script>
+<script type="module" src="/js/layout.js"></script>
+<script type="module" src="/js/order-form.js"></script>
+<script type="module">
+  import { loadLandingProducts, bindLandingCta } from "/js/seo-landing.js";
+  loadLandingProducts({ categorySlug: "bili-paneli", gridId: "landingGrid" });
+  bindLandingCta();
+</script>
+</body>
+</html>

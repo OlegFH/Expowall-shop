@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Доставка — Expowall.shop</title>
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти до змісту</a>
+<header class="site-header" id="site-header"></header>
+<main id="main">
+  <div class="container">
+    <nav class="breadcrumbs"><a href="/">Головна</a><span>/</span><span>Доставка</span></nav>
+  </div>
+  <section class="content-page">
+    <div class="container">
+      <h1 id="pageTitle">Доставка</h1>
+      <p class="prose" id="pageBody"></p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer" id="site-footer"></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/config.js"></script>
+<script type="module" src="/js/layout.js"></script>
+<script type="module" src="/js/order-form.js"></script>
+<script type="module">
+  import { loadStaticContent } from "/js/static-content.js";
+  loadStaticContent("delivery", { titleId: "pageTitle", bodyId: "pageBody" });
+</script>
+</body>
+</html>

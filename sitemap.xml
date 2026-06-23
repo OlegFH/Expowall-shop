@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://expowall-shop.netlify.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://expowall-shop.netlify.app/catalog.html</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://expowall-shop.netlify.app/panel-pid-mramur.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://expowall-shop.netlify.app/panel-pid-derevo.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://expowall-shop.netlify.app/bili-paneli.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://expowall-shop.netlify.app/skinali-dlya-kuhni.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://expowall-shop.netlify.app/fartuh-hpl.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://expowall-shop.netlify.app/fartuh-mdf.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://expowall-shop.netlify.app/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://expowall-shop.netlify.app/delivery.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://expowall-shop.netlify.app/payment.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://expowall-shop.netlify.app/contacts.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+</urlset>
